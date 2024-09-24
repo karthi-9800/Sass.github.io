@@ -1,0 +1,30 @@
+{
+  "name": "sass-learning",
+  "version": "1.0.0",
+  "description": "learning sass basics ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "Sass.github.io"
+  },
+  "keywords": [
+    "sass",
+    "variables",
+    "functions",
+    "mixins",
+    "extend",
+    "nested",
+    "map",
+    "loop",
+    "import"
+  ],
+  "author": "karthi E",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.79.3"
+  }
+}

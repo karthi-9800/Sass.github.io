@@ -1,0 +1,32 @@
+@for $i from 1 to 12 {
+    .col-#{$i} {
+        width: calc-width($i);
+        transition: 0.5s;
+        &:hover {
+            @extend %hover;
+        }
+    }
+}
+
+@each $name, $color in $colors {
+    .#{$name}-bg {
+        background-color:$color;
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .btn-#{$name} {
+        background-color:$color;
+    }
+}
+
+$x:6;
+$y:1;
+@while $x > 0 {
+    h#{$x} {
+        font-size: calc-fontSize($y);
+        margin: .5rem;
+    }
+    $x : $x - 1;
+    $y : $y + 1;
+}
